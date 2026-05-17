@@ -1,0 +1,21 @@
+# Scientific Reference Material for ZAM
+
+This file is reserved for scientific reference material about:
+- Menstrual cycle phases and athletic performance
+- Sleep, nutrition, stress, and travel effects on the female body
+- Hormonal influences on fitness and recovery
+
+## Note
+
+This file is NOT used in the onboarding phase. It will be injected into
+future endpoints (weekly planning, workout-day messaging, insights) to
+provide Claude with evidence-based context for cycle-aware recommendations.
+
+For onboarding, the conversation is purely informational — we're learning
+about the user's preferences, not providing medical insights.
+
+## Future use
+
+When implementing POST /api/weekly-plan, POST /api/workout-message, and
+POST /api/insights, load this file and inject its contents into the
+system prompt so Claude can reference scientific context.
